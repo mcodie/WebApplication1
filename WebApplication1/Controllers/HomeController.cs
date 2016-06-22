@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page goes here and below (added to original branch).";
+            ViewBag.Message = "Your application description page goes here and below (new branch code and also orig).";
 
             return View();
         }
