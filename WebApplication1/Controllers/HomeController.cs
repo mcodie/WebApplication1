@@ -22,7 +22,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page goes here: this is my contact in main branch";
+            ViewBag.Message = "Your contact page goes here: this is my contact in main branch - and here is little bit more info";
 
             return View();
         }
