@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult NewActionMethod()
+        {
+            ViewBag.Message = "Your new Action Method.";
+
+            return View();
+        }
     }
 }
